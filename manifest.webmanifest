@@ -1,15 +1,15 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
-  "description": "Github Page as a Progressive Web App",
-  "scope": "/github-page-pwa/",
-  "start_url": "/github-page-pwa/",
+  "name": "quix",
+  "short_name": "quix",
+  "description": "A simple quiz app as PWA",
+  "scope": "/quix/",
+  "start_url": "/quix/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/github-page-pwa/img/icon.png",
+        "src": "/quix/img/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
