@@ -1,12 +1,19 @@
 var GHPATH = '/quix';
 var APP_PREFIX = 'quix_';
-var VERSION = 'version_001';
+var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
-  `${GHPATH}/css/styles.css`,
-  `${GHPATH}/img/icon.png`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/css/simple.min.css`,
+  `${GHPATH}/js/app.js`,
+  `${GHPATH}/js/marked.min.js`,
+  `${GHPATH}/img/favicon/android-chrome-192x192.png`,
+  `${GHPATH}/img/favicon/android-chrome-512x512.png`,
+  `${GHPATH}/img/favicon/apple-touch-icon.png`,
+  `${GHPATH}/img/favicon/favicon-16x16.png`,
+  `${GHPATH}/img/favicon/favicon-32x32.png`,
+  `${GHPATH}/img/favicon/favicon.ico`,
+  `${GHPATH}/data/questions.md`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION

@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>quix</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
   <link rel="canonical" href="https://pwab.github.io/quix/" />
   <link rel="manifest" href="/quix/manifest.webmanifest">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/simple.min.css">
 </head>
+
 <body>
- 
-  <h1>Quix</h1>
+  <div class="container">
+    <div id="questionTxt"></div>
+    <button id="revealBtn">Reveal</button>
+    <button id="nextBtn" style="display: none;">Next</button>
+    <div id="answerTxt" style="display: none;"></div>
+  </div>
 
   <script>
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-          '/quix/sw.js',
-          {scope: '/quix/'}
-        )
-      }
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register(
+        '/quix/sw.js',
+        { scope: '/quix/' }
+      )
+    }
   </script>
+  <script src="js/marked.min.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>
