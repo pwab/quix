@@ -4,7 +4,7 @@ This is the answer for question 1.
 It can also have multiple lines.
 And [links](https://github.com/pwab/quix)
 
-![images](img/favicon/favicon-32x32.png)
+![images](/quix/img/favicon/favicon-32x32.png)
 
 # This is question 2
 

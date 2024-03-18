@@ -10,7 +10,7 @@ if (!fileUrl) {
     fileUrl = '/data/questions.md'
 }
 */
-const fileUrl = '../data/questions.md'
+const fileUrl = '/data/questions.md'
 
 const questionTxt = document.getElementById('questionTxt');
 const answerTxt = document.getElementById('answerTxt');
